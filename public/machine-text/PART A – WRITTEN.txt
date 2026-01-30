@@ -1,0 +1,24 @@
+Q1. What is State in React? 
+ans:
+State is a built-in React object used to store and manage data that can change  within a component.
+When state changes, React re-renders the component and  updates data.State is declared inside a component.
+no,A child component cannot directly modify the parent’s state because state is under the component where that is declared.
+
+Q2. What are Props in React? 
+ans:
+Props (Properties) are read-only inputs passed from a parent component to a child component to share data. its reusable.
+props are immutable ,a component cannot modify its own props.it can only be changed by the parent component.
+Pass data from parent to child and Reuse components with different data are the msin purpose of props.
+
+Q3. Difference between State and Props 
+ans:
+
+  State:
+---------
+1. State is managed within the component itself	
+2. State is mutable 
+
+  Props:
+---------
+1. Props are passed from parent to child component
+2. Props are immutable 
